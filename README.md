@@ -108,5 +108,62 @@ Operator()
 
        setSize(500,600);
        setVisible(true);
+       }
+public void actionPerformed(ActionEvent ae)
+         {
+               if(ae.getSource()==b5)
+                { 
+			   Insert1 d=new Insert1();
+			   d.setSize(700,600);
+			   d.setVisible(true);
+			   }
+       if(ae.getSource()==b3)
+                {
+		   System.out.println("Face Framing page opening");
+	    faceIdMain1 f1=new faceIdMain1();
+		f1.setSize(800,800);
+		f1.setVisible(true);
+			   
+	        }
+             			 
+			  if(ae.getSource()==b8)
+                {
+	   Draw d1=new Draw();
+		d1.setSize(600,400);
+		d1.setVisible(true);
+			   
+	        }
+      
+			 if(ae.getSource()==b9)
+                {
+	   MatchingImg mi=new MatchingImg();
+		mi.setSize(700,600);
+		mi.setVisible(true);
+			   
+	        }
+			 
+			 if(ae.getSource()==b10)
+                {
+	   DatafromOp da=new DatafromOp();
+		da.setSize(600,400);
+		da.setVisible(true);
+			   
+	        }
+			 
+			 
+			 
+			 if(ae.getSource()==b4)
+                { 
+			Retr r1=new Retr();
+			   r1.setSize(600,600);
+			   r1.setVisible(true);
+			 }
+             
+         }
+       public static void main(String args[])
+        {
+        Operator op= new Operator();
+       }}
+
 
        
