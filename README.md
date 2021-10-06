@@ -85,4 +85,28 @@ Operator()
        b10.setForeground(new Color(255,255,255));
        b10.setFont(new Font("Arial",Font.BOLD,15)); 
        b10.setBackground(new Color(0,64,64));*/
+              b3.addActionListener(this);
+       b4.addActionListener(this);
+       //b5.addActionListener(this);
+       b8.addActionListener(this);
+       //b10.addActionListener(this);
+       //b9.addActionListener(this);
+       
+
+       
+	   c1.add(l);
+	   c1.add(l2);
+	   c1.add(l3);
+
+   //    c1.add(b5);
+       c1.add(b4);
+       c1.add(b3);
+	   c1.add(b8);
+	 //  c1.add(b9);
+	//   c1.add(b10);
+      
+
+       setSize(500,600);
+       setVisible(true);
+
        
